@@ -1,6 +1,17 @@
 let nome = "junioom"
-let nvExp = 3000
+let nvExp = 0
 let ranking = ""
+let expPSlime = 100
+let slimeKill = 10
+let expPOgro = 1000
+let ogroKill = 4
+
+for(let cont = 1; cont <= slimeKill; cont++){
+    nvExp += expPSlime
+}
+for(let cont = 1; cont <= ogroKill; cont++){
+    nvExp += expPOgro
+}
 
 if (nvExp <= 1000){
     ranking = "Ferro";
